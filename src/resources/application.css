@@ -1,0 +1,22 @@
+.background{
+	-fx-background-image: url("background_2.jpg") ;
+	-fx-background-size: cover  ;
+}
+
+.levelBackground{
+	-fx-background-image: url("level_bg.png");
+	-fx-background-size: cover  ;
+}
+
+.level{
+	-fx-cursor: hand ;
+}
+
+.level:hover{
+	-fx-background-color: rgba(26,135,235,0.5);
+}
+
+.error{
+	-fx-border-color: red ;
+	-fx-border-image-width: 2.0px;
+}
